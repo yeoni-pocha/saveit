@@ -46,7 +46,7 @@ class _MainScreenState extends State<MainScreen> {
                       onTap: () {
                         setState(() => _isExpanded = false);
                         // 수입 탭(index: 0)으로 이동
-                        context.push('/record', extra: 0);
+                        context.push('/record/add', extra: 0);
                       },
                     ),
                     SizedBox(height: 12.h),
@@ -57,7 +57,7 @@ class _MainScreenState extends State<MainScreen> {
                       onTap: () {
                         setState(() => _isExpanded = false);
                         // 지출 탭(index: 1)으로 이동
-                        context.push('/record', extra: 1);
+                        context.push('/record/add', extra: 1);
                       },
                     ),
                     SizedBox(height: 12.h),
